@@ -9,12 +9,12 @@ public class WriteClass {
 	 public static void main(String[] args) throws IOException
 	    {
 
-	            File file = new File("C:\\Users\\14169\\Desktop\\college\\input.xlsx");
+	            File file = new File("C:\\Users\\16475\\Desktop\\input.xlsx");
 	        XSSFWorkbook workbook = new XSSFWorkbook();
 	        XSSFSheet first_sheet = workbook.createSheet("First Sheet");
 
-	        first_sheet.createRow(0).createCell(0).setCellValue("arana51@gmail.com");
-	        first_sheet.getRow(0).createCell(1).setCellValue("Pass123");
+	        first_sheet.createRow(0).createCell(0).setCellValue("hmacwan@gmail.com");
+	        first_sheet.getRow(0).createCell(1).setCellValue("Password@123");
 
 	        try {
 	            FileOutputStream fos = new FileOutputStream(file);

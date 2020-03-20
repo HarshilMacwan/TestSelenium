@@ -10,7 +10,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 public class ReadFile {
 	 public static void main(String[] args) throws IOException
 	 {
-	        FileInputStream wrkbook =new FileInputStream("C:\\Users\\14169\\Desktop\\college\\input.xlsx");
+	        FileInputStream wrkbook =new FileInputStream("C:\\Users\\16475\\Desktop\\input.xlsx");
 	        XSSFWorkbook page =new XSSFWorkbook(wrkbook);
 	        XSSFSheet sheet=page.getSheetAt(0);
 	        Row row= sheet.getRow(0);
